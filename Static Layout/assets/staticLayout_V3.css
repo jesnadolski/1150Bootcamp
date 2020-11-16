@@ -1,0 +1,228 @@
+
+
+
+
+html{
+    margin:0;
+    padding:0;
+    background-image: linear-gradient(to bottom, transparent, black), url("./potter.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    }
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+    
+.topnavbar{
+    padding: 0px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 60px;
+    width: 100vw;
+    text-align: right;
+    position: fixed;
+    background-color: transparent;
+    }    
+
+.topnavbar:hover{
+    background-color:  rgb(42,42,54);
+}
+
+.bottomnavbar{
+    padding: 0px;
+    top: 60px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    width: 100vw;
+    text-align: center;
+    position: fixed;
+    background-color: transparent;
+  }
+
+.bottomnavbar:hover{
+    background-color: rgb(21, 20, 36);
+}
+
+   li{
+    color: white;
+    display: inline;
+    margin: 20px;
+    font-family: serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+
+.readmore{
+    background-color: rgb(106, 85, 141);
+    color: white;
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    margin: auto auto auto auto;
+    font-size: 15px;
+    }
+
+.potter{
+    text-align: center;
+    margin-top: 150px;
+   }
+
+   #pottertext1{
+       color: white;
+       text-align: center;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       font-size: 60px;
+       padding: 0px;
+       line-height: 0.5;
+   }
+
+   #pottertext2{
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding: 0px;
+    line-height: 0.5;
+    
+}
+
+#background{
+    background-image: linear-gradient(to top, transparent, black), url("./stars.jpg");
+    background-position: relative;
+    margin-top: -50px;
+}
+
+
+.gridcontainer1{
+    margin-top: 100px;
+    text-align: center;
+    display: inline-grid;
+    height: 500px;
+    width: 100vw;
+    grid-column-gap: auto;
+    grid-row-gap: auto;
+    justify-content: space-evenly;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    position: relative;
+    grid-template-areas: 'gridline1 gridline2 gridline3';
+    position: relative;
+
+}
+
+.gridline1{
+    grid-area: gridline1;
+    display: inline-grid;
+    background-image: url("./train.jpg");
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    color: white;
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+
+
+
+    }
+
+.gridline2{
+    grid-area: gridline2;
+    display: inline-grid;
+    background-image: url("./makeup.jpg");
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    text-align: right;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    }
+
+.gridline3{
+    grid-area: gridline3;
+    display: inline-grid;
+    background-image: url("./molly.jpg");
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    text-align: right;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    }
+
+    .gridcontainer2{
+        margin-top: 100px;
+        text-align: center;
+        display: inline-grid;
+        height: 300px;
+        width: 100vw;
+        grid-column-gap: auto;
+        grid-row-gap: auto;
+        justify-content: space-evenly;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 300px 300px 300px;
+        position: relative;
+        grid-template-areas: 'gridline1 gridline2 gridline3';
+        position: relative;
+    
+    }
+
+.gridline4{
+    grid-area: gridline4;
+    display: inline-grid;
+    background-image: url("./molly.jpg");
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    text-align: right;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    }
+
+.gridline5{
+    grid-area: gridline5;
+    display: inline-grid;
+    background-image: url("./molly.jpg");
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    text-align: right;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+        }
+
+.gridline6{
+    grid-area: gridline6;
+    display: inline-grid;
+    background-image: url("./molly.jpg");
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    text-align: right;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+        }
+
+
+    @keyframes stars1 {
+        from{
+            transform: translatex(0%);
+        }
+        to {
+            transform: translatex(100%);
+        }
+    }
+
