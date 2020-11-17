@@ -75,7 +75,7 @@ function scope(){
         var x=45;
         console.log(x);  //runs 45
     }
-    console.log(x);  //runs 45 - var does not obey 'block' scope
+    console.log(x);  //runs 45 - var does not obey 'block' scope - will treat it all as the same scope
 }
 
 scope();
