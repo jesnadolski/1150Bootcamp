@@ -1,21 +1,26 @@
-
-
+@font-face{
+    font-family: Bluu Next;
+    src: url('./BluuNext-Bold.otf');
+}
 
 
 html{
     margin:0;
     padding:0;
-    
-
+    width: 100%;
+    height: 100%;
     }
 
 body{
     margin: 0px;
     padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
 }
     
 .topnavbar{
-    padding: 5px;
+    padding: 0px;
     bottom: 0px;
     top: 0px;
     left: 0px;
@@ -24,6 +29,7 @@ body{
     width: 100vw;
     text-align: right;
     background-color: transparent;
+    position: absolute;
     }    
 
 .topnavbar:hover{
@@ -39,7 +45,8 @@ body{
     width: 100vw;
     text-align: center;
     background-color: transparent;
-  }
+    position: absolute;
+   }
 
 .bottomnavbar:hover{
     background-color: rgb(21, 20, 36);
@@ -48,9 +55,9 @@ body{
 
 .topnavbar li{
     padding: 0px;
+    margin: 40px;
     color: white;
     display: inline;
-    margin: 100px;
     font-family: serif;
     font-size: 14px;
     font-weight: bold;
@@ -58,80 +65,81 @@ body{
 
 .bottomnavbar li{
     padding: 0px;
+    margin: 20px;
     color: white;
     display: inline;
-    margin: 20px;
     font-family: serif;
     font-size: 14px;
     font-weight: bold;
 }
 
 
-
-
 .readmore{
-    background-color: rgb(106, 85, 141);
+    border-style: hidden;
+    border-radius: 50px;
+    background-color: #6b63b5;
     color: white;
-    height: 60px;
+    height: 50px;
     width: 300px;
     text-align: center;
     font-weight: bold;
     margin: auto auto auto auto;
-    font-size: 15px;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
 .potterimage{    
-    top: -200px;
-    padding:0;
+    margin: 0px;
+    padding: 10px;
     background-image: linear-gradient(to bottom, transparent, black 90%), url("./potter.jpg");
-    background-size: 100vw;
     background-repeat: no-repeat;
     height: 900px;
-    width: 100vw;
-    overflow: hidden;
+    width: 100%;
+    display: block;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
 }
 
 .potter{
     text-align: center;
     margin-top: -700px;
+    width: 100vw;
    }
 
    #pottertext1{
        color: white;
        text-align: center;
-       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       font-family: "Bluu Next", serif;
        font-size: 60px;
        padding: 0px;
        line-height: 0.5;
+       width: 100vw;
    }
 
    #pottertext2{
     color: white;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     padding: 0px;
     line-height: 0.5;
+    width: 100vw;
 }
 
 
 .background{
+    padding: 10px;
     background-image: linear-gradient(to top, transparent, black), url("./stars.jpg");
     background-position: absolute;
-    margin-top: -50px;
+    margin-top: -70px;
+    height: 1500px;
+    width: 100%;
+    background-position: center;
     background-size: cover;
-    height: 700px;
-    width: 100vw;
+    z-index: -1;
 }
 
-.stars{
-    background-image: url("./stars.jpg");
-    background-position: absolute;
-    margin-top: -50px;
-    height: 1000px;
-    width: 100vw;
-    opacity: 0.3;
-}
 
 .gridcontainer1{
     margin-top: 100px;
@@ -161,7 +169,7 @@ body{
 .gridline1 h5{
     font-size: 14px;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Bluu Next", serif;
     font-weight: bold;
     overflow: visible;
     margin-right: -30px;
@@ -174,7 +182,7 @@ body{
 .gridline1 h3{
     font-size: 28px;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Bluu Next", serif;
     font-weight: bold;
     overflow: visible;
     margin-right: -30px;
@@ -199,7 +207,7 @@ body{
 .gridline2 h5{
     font-size: 14px;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Bluu Next", serif;
     font-weight: bold;
     overflow: visible;
     margin-right: -30px;
@@ -212,7 +220,7 @@ body{
 .gridline2 h3{
     font-size: 28px;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Bluu Next", serif;
     font-weight: bold;
     overflow: visible;
     margin-right: -30px;
@@ -238,7 +246,7 @@ body{
 .gridline3 h5{
     font-size: 14px;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Bluu Next", serif;
     font-weight: bold;
     overflow: visible;
     margin-right: -30px;
@@ -251,7 +259,7 @@ body{
 .gridline3 h3{
     font-size: 28px;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Bluu Next", serif;
     font-weight: bold;
     overflow: visible;
     margin-right: -30px;
@@ -262,46 +270,53 @@ body{
 }
 
 .inspiration{
-    height: 800px;
+    margin-top: 200px;
+    height: 600px;
     width: 100vw;
-    text-align: right;
-    background-image: url('./stars.jpg');
+    background-image: linear-gradient(to left, transparent, black), url("./fanclub.jpg");
     background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    position: absolute;
 }
-
-
-.inspirationarea{
-    height: 100vh;
-    width: 100vw;
-    background-image: linear-gradient(to left, transparent, black 90%), url("./fanclub.jpg");
-    background-repeat: no-repeat;
-}
-
 
 .inspirationtext{
     text-align: left;
     color: white;
+    text-align: right;
+    margin-right: 850px;
 }
 
 .inspirationtext h1{
-    font-size: 80px;
-    text-justify: right;
-    line-height: 0.5;
+    font-size: 60px;
+    line-height: 0.3;
 }
 
 .inspirationtext h5{
     font-size: 18px;
-    text-justify: left;
+    font-family: "Bluu Next", serif;
 }
 
+.inspirationtext h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 0.5;
+}
+
+.footer{
+    background-color: black;
+}
+
+.footerlinks{
+    color: white;
+    
 
 
-    @keyframes stars1{
-        from{
-            transform: translatex(0%);
-        }
-        to {
-            transform: translatex(100%);
-        }
+@keyframes stars1{
+    from{
+        transform: translatex(0%);
     }
-
+    to {
+        transform: translatex(100%);
+    }
+}
