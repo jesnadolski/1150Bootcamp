@@ -1,0 +1,114 @@
+
+
+
+
+html,body{
+    margin:0;
+    padding:0;
+    background-color: black;
+    }
+
+.wrap{
+    position: relative;
+    padding: 0px;
+    z-index: 1;
+}
+
+.wrap img{
+    padding: 100px;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.1;
+}
+
+.navbar{
+    top: 0;
+    right: 20px;
+    height: 100px;
+    width: 100vw;
+    text-align: right;
+    position: fixed;
+    }
+
+
+   li{
+    color: white;
+    display: inline;
+    margin: 20px;
+    font-family: serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.logo{
+    height: 100vh;
+    width: 100vw;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-image: url("https://www.hulu.com/static/hitch/s3/2020-08/Hulu_Logo-01_newgreen.png");
+    background-position: center;
+    position: fixed;
+    margin-left: 50px;
+}
+
+.header{
+    margin-top: 200px;
+    height: 300px;
+    width: 100vw;
+    background-color: white;
+    color: black;
+    position: fixed;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.freetrial{
+    background-color: green;
+    border-radius: 2%;
+    color: black;
+    padding: 20px 60px;
+    text-align: center;
+    display: inline;
+    font-size: 15px;
+    }
+
+.gridcontainer{
+    margin-top: 600px;
+    text-align: center;
+    display: inline-grid;
+    height: 200px;
+    width: 100vw;
+    grid-column-gap: auto;
+    grid-row-gap: auto;
+    justify-content: space-evenly;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300 px 300px 300px;
+    position: fixed;
+    grid-template-areas: 'gridline1 gridline2 gridline3';
+
+}
+
+.gridline1{
+    grid-area: gridline1;
+    display: inline-grid;
+    background-color: white;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    }
+
+.gridline2{
+    grid-area: gridline2;
+    display: inline-grid;
+    background-color: white;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    }
+
+.gridline3{
+    grid-area: gridline3;
+    display: inline-grid;
+    background-color: white;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    }
