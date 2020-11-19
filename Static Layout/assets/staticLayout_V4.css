@@ -305,12 +305,19 @@ body{
 
 .footer{
     background-color: black;
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    color: white;
 }
 
-.footerlinks{
-    color: white;
-    
-
+.footer li{
+    list-style: none;
+    display:  inline-block;
+    align-items: center;
+    justify-content: left;
+}
 
 @keyframes stars1{
     from{
