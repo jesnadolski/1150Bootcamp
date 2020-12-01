@@ -68,7 +68,37 @@ gitToKnowMe = [
     }
 ]
 let moviesWatched = new Array();
+let movieWatcher = new Array();
 for (i = 0; i < gitToKnowMe.length; i++) {
     moviesWatched.push(gitToKnowMe[i].mostRecentMovieWatched);
 }
 console.log(moviesWatched);
+
+//another example - a for of loop
+
+
+//GET EX from slack
+
+
+//another example - a forEach loop
+
+
+let mostRecentMovieWatched = [];
+​
+for (let i = 0; i < webDevGroup.length; i++) {
+  console.log(webDevGroup[i].mostRecentMovie);
+  mostRecentMovieWatched.push(webDevGroup[i].mostRecentMovie);
+}
+​
+console.log(mostRecentMovieWatched);
+mostRecentMovieWatched = [];
+for (student of webDevGroup) {
+  mostRecentMovieWatched.push(student.mostRecentMovie);
+}
+console.log(mostRecentMovieWatched);
+mostRecentMovieWatched = [];
+​
+webDevGroup.forEach((student) => {
+  mostRecentMovieWatched.push(student.mostRecentMovie);
+});
+​
