@@ -1,0 +1,69 @@
+html{background-color: black;
+color: white;
+font-family: 'tahoma';
+font-size: 20px;}
+
+#listitems{list-style: none;
+text-align: right;
+font-style: bold;
+margin-right: 50px;
+}
+
+.empty{
+    margin-top: 100px;
+}
+
+.about{
+    margin-top:  300px;
+    margin-left: 200px;
+    height: 400px;
+    width: 400px;
+}
+.about h1{
+    font-size: 40px;
+    line-height: 0px;
+}
+
+.about h3{
+    font-size: 20px;
+}
+
+.about:hover{
+    margin-top: -10px;
+    color: transparent;
+    height: 300px;
+    width: 300px;
+    background-image: url("../Portfolio/assets/jln_small.jpg");
+    border-style: solid;
+    border-color: black;
+    opacity: 60%;
+    border-radius: 60%
+    
+}
+
+
+
+
+
+/*
+.curve1{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    transform: skew(30deg);
+    border-style: solid;
+    border-radius: 30%;
+    margin-left: 400px;
+    margin-top: -200px;
+}
+.curve2{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    transform: skew(70deg);
+    border-style: solid;
+    border-radius: 30%;
+    margin-left: 500px;
+    margin-top: -90px;
+}
+*/
