@@ -1,45 +1,311 @@
-html{background-color: black;
-color: white;
-font-family: 'tahoma';
-font-size: 20px;}
-
-#listitems{list-style: none;
-text-align: right;
-font-style: bold;
-margin-right: 50px;
+@font-face{
+    font-family: 'lato';
+    src: url(../Portfolio/assets/Lato-Black.ttf);
 }
 
+
+html,body{background-color: black;
+color: white;
+font-family: 'lato';
+font-size: 20px;
+margin: 0px;
+padding: 0px;
+}
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 30px;
+}
+
+#listitems{
+    list-style: none;
+    text-align: right;
+    font-style: bold;
+    margin-right: 50px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.listitems2{
+    list-style: none;
+    font-style: bold;
+    font-size: 16px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.listitems2 li{
+    display: inline-block;
+    padding: 20px;
+}
+
+
 .empty{
-    margin-top: 100px;
+    height: 200px;
+    width: 100vw;
 }
 
 .about{
-    margin-top:  300px;
     margin-left: 200px;
-    height: 400px;
-    width: 400px;
-}
-.about h1{
-    font-size: 40px;
-    line-height: 0px;
-}
+    height: 200px;
+    width: 300px;
+    animation: appear 5s;
 
-.about h3{
-    font-size: 20px;
 }
 
 .about:hover{
-    margin-top: -10px;
+    margin-top: -100px;
     color: transparent;
     height: 300px;
     width: 300px;
     background-image: url("../Portfolio/assets/jln_small.jpg");
     border-style: solid;
     border-color: black;
-    opacity: 60%;
-    border-radius: 60%
-    
+    opacity: 40%;
+    border-radius: 60%   
 }
+
+.connect{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#letsConnect{
+    text-align: center;  
+}
+
+#linkedIn{
+    text-align: center;
+    font-size: 16px;
+}
+
+input{
+    padding: 20px;
+    border-style: solid;
+    width: 300px;
+}
+.contactForm{
+    margin-top: 100px;
+    margin-left: 15vw;
+    margin-bottom: 100px;
+    display: block;
+}
+
+.formBorder{
+    border-style: solid;
+    border-width: 0.2px;
+    padding: 60px;
+    border-color:white;
+    size: 5px;
+    display: inline-block;
+    width: 60vw;
+}
+
+#contactMessage{
+    height: 100px;
+    width: 600px;
+}
+
+.btn-primary{
+    background-color: rgb(85, 85, 231);
+    height: 40px;
+    width: 100px;
+    border-style: solid;
+    border-color: rgb(85, 85, 231);
+    border-radius: 10%;
+    color: white;
+    font-style: bold;
+}
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    background-color: rgb(85, 85, 231);
+}
+
+
+@keyframes appear {
+    0% {
+        opacity: 0:
+    }
+    100% {
+        opacity: 1;
+    }
+    }
+
+
+/* .webdev{
+    font-size: 18px;
+    text-align: right;
+    margin-top: 400px;
+    margin-right: 400px;
+
+} */
+
+
+/* .motion1{
+    background-image: url("../Portfolio/assets/jln_small.jpg");
+    border-style: solid;
+    border-radius: 50%;
+    top: 400px;
+    left: 960px;
+    position: absolute;
+    background-position: center;
+    transform: translatex(200px);
+    height: 100px;
+    width: 100px; 
+    animation: orbit1 60s linear infinite;
+    animation: orbit2 60s linear infinite;
+    animation: orbit3 60s linear infinite;
+    animation: orbit4 60s linear infinite;
+} 
+
+.motion2{
+    background-image: url("../Portfolio/assets/jln_small.jpg");
+    border-style: solid;
+    border-radius: 50%;
+    top: 400px;
+    left: 960px;
+    position: absolute;
+    background-position: center;
+    transform: translatex(200px);
+    height: 100px;
+    width: 100px;
+    animation: orbit1 60s linear infinite;
+    animation: orbit2 60s linear infinite;
+    animation: orbit3 60s linear infinite;
+    animation: orbit4 60s linear infinite;
+} */
+
+/* .skills{
+    padding: 100px;
+    height: 500px;
+    width: 100vw;
+    animation: ribbon 30s infinite;
+} */
+
+
+
+/* 
+.motion3{
+    background-image: url("../Portfolio/assets/jln_small.jpg");
+    border-style: solid;
+    border-radius: 50%;
+    top: 400px;
+    left: 960px;
+    position: absolute;
+    background-position: center;
+    transform: translatex(200px);
+    height: 100px;
+    width: 100px;
+    animation: orbit9 60s linear infinite;
+    animation: orbit10 60s linear infinite;
+    animation: orbit11 60s linear infinite;
+    animation: orbit12 60s linear infinite;
+} */
+
+/* 
+.motion3{
+    background-image: url("../Portfolio/assets/jln_small.jpg");
+    border-style: solid;
+    border-radius: 50%;
+    top: 400px;
+    left: 960px;
+    position: absolute;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    animation: orbit1 60s linear infinite;
+    animation: orbit2 60s linear infinite;
+    animation: orbit3 60s linear infinite;
+    animation: orbit4 60s linear infinite;
+} */
+
+
+
+
+/* 
+@keyframes orbit1{
+    from{transform: rotate( 0deg) translatex(200px);}
+    to{transform: rotate(360deg) translatex(200px);}
+}
+
+@keyframes orbit2{
+    from{transform: rotate( 0deg) translatex(200px);}
+    to{transform: rotate(360deg) translatex(200px);}
+}
+
+@keyframes orbit3{
+    from{transform: rotate( 0deg) translatex(200px);}
+    to{transform: rotate(360deg) translatex(200px);}
+}
+
+@keyframes orbit4{
+    from{transform: rotate( 0deg) translatex(200px);}
+    to{transform: rotate(360deg) translatex(200px);}
+}
+
+@keyframes orbit5{
+    from{transform: rotate( 0deg) translatex(200px);}
+    to{transform: rotate(360deg) translatex(200px);}
+}
+
+@keyframes orbit6{
+    from{transform: rotate( 0deg) translatex(200px);}
+    to{transform: rotate(360deg) translatex(200px);}
+}
+
+@keyframes orbit7{
+    from{transform: rotate( 0deg) translatex(200px);}
+    to{transform: rotate(360deg) translatex(200px);}
+}
+
+@keyframes orbit8{
+    from{transform: rotate( 0deg) translatex(200px);}
+    to{transform: rotate(360deg) translatex(200px);}
+}
+
+@keyframes ribbon{
+    from{transform: translate(0);}
+    to{transform: translate(100vw);}
+} */
+
+
+
+
+
+
+
+/* 
+@keyframes orbit9{
+    from{transform: rotate( 0deg) translatex(200px);}
+    to{transform: rotate(360deg) translatex(200px);}
+}
+
+@keyframes orbit10{
+    from{transform: rotate( 0deg) translatex(200px);}
+    to{transform: rotate(360deg) translatex(200px);}
+}
+
+@keyframes orbit11{
+    from{transform: rotate( 0deg) translatex(200px);}
+    to{transform: rotate(360deg) translatex(200px);}
+}
+
+@keyframes orbit12{
+    from{transform: rotate( 0deg) translatex(200px);}
+    to{transform: rotate(360deg) translatex(200px);}
+} */
 
 
 

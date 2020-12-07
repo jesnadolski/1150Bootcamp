@@ -76,6 +76,15 @@ function calculator(one, two, three){
     return average;  //anything after the return does not get executed
 }
 
+
+function calculator(one, two, three){
+    let total = one + two + three;
+    let average = (total / 3);
+    return average;
+    console.log(average);
+}
+
+function(1,2,3);
 /*
 
 function calculator(one, two, three){
@@ -108,6 +117,16 @@ let nameJoiner = (first, last) => `${first}, ${last}`;
 let fullName = nameJoiner("Jes", "Nadolski");
 console.log(fullName);
 //the return happens automatically - no console log inside the function 
+
+
+let dog = (name) => console.log(`${name} is a dog`);
+dog('Wrigley');
+
+let dog = (name) =>{
+    console.log(`${name} is a dog`);
+}
+
+dog('Wrigley');
 
 //BLOCK BODY
 
@@ -144,7 +163,7 @@ console.log(area2);
 //My code
 function ageConvert(dogAge) {
     let humanAge = (dogAge - 2) * 4 + 21;
-    return humanAge;
+    con;
 }
 
 ageConvert(8);

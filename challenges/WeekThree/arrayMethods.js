@@ -236,3 +236,14 @@ console.log(sum(numArray));
 
 console.log(sum(...numArray));
 //using the spread operator - it takes it out of the structure and then you can use it
+
+
+
+
+function area(x,y){
+let triArea = (x*y);
+return triArea;
+}
+
+area(2,3);
+console.log(area(2,3));
