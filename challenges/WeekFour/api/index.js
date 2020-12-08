@@ -18,10 +18,21 @@ jokeButton.addEventListener("click", fetchJokes);
 function fetchJokes(){
     fetch(url)
     .then((response) => response.json())
-    .then((json) => console.log(json));
+    .then((json) => displayJoke(json.value)); //we inser the display joke function here - instead of console.log
 }
 
 //can use alert, confirm, or prompt - like this:
 // function fetchJokes(){
 //     alert ("It worked!");
 // }
+
+//now you need to display it - so you need another function
+
+function displayJoke(joke){
+    let jokeText = document.getElementById("joke");
+
+    jokeText.innerText = joke;
+};
+
+//Before the function can be invoked - we need to look at fetch and determine at what point in the code we get the json/url
+//At that point - thats where we need to put the function
