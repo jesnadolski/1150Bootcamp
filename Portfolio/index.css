@@ -1,335 +1,88 @@
 @font-face{
-    font-family: 'lato';
-    src: url(../Portfolio/assets/Lato-Black.ttf);
+    font-family: 'Daniel-Regular.otf';
+    src: url("../Portfolio/assets/Daniel-Regular.otf");
 }
 
 
-html,body{background-color: black;
-color: white;
-font-family: 'lato';
+html,body{background-color: #f3f1f2;
+color: #7c7c7c;
+font-family: 'Daniel-Regular.otf';
 font-size: 20px;
 margin: 0px;
 padding: 0px;
 }
 
-
+.line{
+    border-style: solid;
+    border-color: #7c7c7c;
+    width: 60vw;
+    margin: auto;
+    border-radius: 60%;
+    height: 2x;
+}
 
 a{
-    color: white;
+    color: #7c7c7c;
     text-decoration: none;
 }
 
 h1{
-    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    color: #aa4465;
 }
 
-#listitems{
-    list-style: none;
-    text-align: right;
-    font-style: bold;
-    margin-right: 50px;
-    font-size: 22px;
-    font-weight: bold;
+.nav{
+    text-align: center;
+    font-size: 12px;
 }
 
-.listitems2{
+.nav-item{
     list-style: none;
-    font-style: bold;
-    font-size: 16px;
-    font-weight: bold;
+    display: inline-block;
+    padding: 1em;
+}
+
+#about{
     margin: auto;
+    font-size: 40px;
     text-align: center;
-    color: white;
+    line-height: 1.0;
 }
 
-.listitems2 li{
-    display: inline-block;
-    padding: 20px;
-}
-
-
-.empty{
-    height: 200px;
-    width: 100vw;
-}
-
-.about{
-    margin-left: 200px;
-    height: 200px;
-    width: 300px;
-    animation: appear 5s;
-
-}
-
-.about:hover{
-    margin-top: -100px;
-    color: transparent;
-    height: 300px;
-    width: 300px;
-    background-image: url("../Portfolio/assets/jln_small.jpg");
-    border-style: solid;
-    border-color: black;
-    opacity: 40%;
-    border-radius: 60%   
-}
-
-.connect{
-    margin-top: 100px;
+.container{
+    margin-top: 50px;
     text-align: center;
-}
-
-#letsConnect{
-    text-align: center;  
-}
-
-#linkedIn{
-    text-align: center;
-    font-size: 16px;
-}
-
-input{
-    padding: 20px;
+    background-color: #7c7c7c;
+    color: #f3f1f2;
+    font-family: "open sans", sans-serif;
     border-style: solid;
-    width: 300px;
-}
-.contactForm{
-    margin-top: 100px;
-    margin-left: 15vw;
-    margin-bottom: 100px;
-    display: block;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: #aa4465;
 }
 
-.formBorder{
+.container h3{
+    color: #aa4465;
+    font-family: "daniel-regular.otf";
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.col-md-4{
+    padding: 2em;
+}
+
+.col-md-4 img{
     border-style: solid;
-    border-width: 0.2px;
-    padding: 60px;
-    border-color:white;
-    size: 5px;
-    display: inline-block;
-    width: 60vw;
+    border-width: 2px;
+    border-radius: 5%;
+    border-color: transparent;
 }
 
-#contactMessage{
-    height: 100px;
-    width: 600px;
-}
-
-.btn-primary{
-    background-color: rgb(85, 85, 231);
-    height: 40px;
-    width: 100px;
-    border-style: solid;
-    border-color: rgb(85, 85, 231);
-    border-radius: 10%;
-    color: white;
-    font-style: bold;
-}
-
-
-.footer{
-    position: absolute;
-    bottom: 0;
-    width: 100vw;
-    background-color: rgb(85, 85, 231);
-}
-
-
-@keyframes appear {
-    0% {
-        opacity: 0:
-    }
-    100% {
-        opacity: 1;
-    }
-    }
-
-
-/* .webdev{
-    font-size: 18px;
-    text-align: right;
-    margin-top: 400px;
-    margin-right: 400px;
-
-} */
-
-
-/* .motion1{
-    background-image: url("../Portfolio/assets/jln_small.jpg");
-    border-style: solid;
-    border-radius: 50%;
-    top: 400px;
-    left: 960px;
-    position: absolute;
-    background-position: center;
-    transform: translatex(200px);
-    height: 100px;
-    width: 100px; 
-    animation: orbit1 60s linear infinite;
-    animation: orbit2 60s linear infinite;
-    animation: orbit3 60s linear infinite;
-    animation: orbit4 60s linear infinite;
-} 
-
-.motion2{
-    background-image: url("../Portfolio/assets/jln_small.jpg");
-    border-style: solid;
-    border-radius: 50%;
-    top: 400px;
-    left: 960px;
-    position: absolute;
-    background-position: center;
-    transform: translatex(200px);
-    height: 100px;
-    width: 100px;
-    animation: orbit1 60s linear infinite;
-    animation: orbit2 60s linear infinite;
-    animation: orbit3 60s linear infinite;
-    animation: orbit4 60s linear infinite;
-} */
-
-/* .skills{
-    padding: 100px;
-    height: 500px;
-    width: 100vw;
-    animation: ribbon 30s infinite;
-} */
-
-
-
-/* 
-.motion3{
-    background-image: url("../Portfolio/assets/jln_small.jpg");
-    border-style: solid;
-    border-radius: 50%;
-    top: 400px;
-    left: 960px;
-    position: absolute;
-    background-position: center;
-    transform: translatex(200px);
-    height: 100px;
-    width: 100px;
-    animation: orbit9 60s linear infinite;
-    animation: orbit10 60s linear infinite;
-    animation: orbit11 60s linear infinite;
-    animation: orbit12 60s linear infinite;
-} */
-
-/* 
-.motion3{
-    background-image: url("../Portfolio/assets/jln_small.jpg");
-    border-style: solid;
-    border-radius: 50%;
-    top: 400px;
-    left: 960px;
-    position: absolute;
-    background-position: center;
-    height: 100px;
-    width: 100px;
-    animation: orbit1 60s linear infinite;
-    animation: orbit2 60s linear infinite;
-    animation: orbit3 60s linear infinite;
-    animation: orbit4 60s linear infinite;
-} */
-
-
-
-
-/* 
-@keyframes orbit1{
-    from{transform: rotate( 0deg) translatex(200px);}
-    to{transform: rotate(360deg) translatex(200px);}
-}
-
-@keyframes orbit2{
-    from{transform: rotate( 0deg) translatex(200px);}
-    to{transform: rotate(360deg) translatex(200px);}
-}
-
-@keyframes orbit3{
-    from{transform: rotate( 0deg) translatex(200px);}
-    to{transform: rotate(360deg) translatex(200px);}
-}
-
-@keyframes orbit4{
-    from{transform: rotate( 0deg) translatex(200px);}
-    to{transform: rotate(360deg) translatex(200px);}
-}
-
-@keyframes orbit5{
-    from{transform: rotate( 0deg) translatex(200px);}
-    to{transform: rotate(360deg) translatex(200px);}
-}
-
-@keyframes orbit6{
-    from{transform: rotate( 0deg) translatex(200px);}
-    to{transform: rotate(360deg) translatex(200px);}
-}
-
-@keyframes orbit7{
-    from{transform: rotate( 0deg) translatex(200px);}
-    to{transform: rotate(360deg) translatex(200px);}
-}
-
-@keyframes orbit8{
-    from{transform: rotate( 0deg) translatex(200px);}
-    to{transform: rotate(360deg) translatex(200px);}
-}
-
-@keyframes ribbon{
-    from{transform: translate(0);}
-    to{transform: translate(100vw);}
-} */
-
-
-
-
-
-
-
-/* 
-@keyframes orbit9{
-    from{transform: rotate( 0deg) translatex(200px);}
-    to{transform: rotate(360deg) translatex(200px);}
-}
-
-@keyframes orbit10{
-    from{transform: rotate( 0deg) translatex(200px);}
-    to{transform: rotate(360deg) translatex(200px);}
-}
-
-@keyframes orbit11{
-    from{transform: rotate( 0deg) translatex(200px);}
-    to{transform: rotate(360deg) translatex(200px);}
-}
-
-@keyframes orbit12{
-    from{transform: rotate( 0deg) translatex(200px);}
-    to{transform: rotate(360deg) translatex(200px);}
-} */
-
-
-
-
-
-/*
-.curve1{
-    height: 50px;
-    width: 300px;
-    background-color: white;
-    transform: skew(30deg);
-    border-style: solid;
-    border-radius: 30%;
-    margin-left: 400px;
-    margin-top: -200px;
-}
-.curve2{
-    height: 50px;
-    width: 300px;
-    background-color: white;
-    transform: skew(70deg);
-    border-style: solid;
-    border-radius: 30%;
-    margin-left: 500px;
-    margin-top: -90px;
-}
-*/
