@@ -1,3 +1,5 @@
+function refreshPic(){
+
 let url = "https://picsum.photos/200";
 
 
@@ -7,11 +9,19 @@ fetch(url)
 })
 .then(randomPic => newImage(randomPic.url));
 
+// function newImage(){
+//     let img=new Image();
+//     img.src = url;
+//     document.getElementById("photo").appendChild(img);
+// }
+
 function newImage(){
     let img=new Image();
     img.src = url;
-    document.getElementById("photo").appendChild(img);
+    document.getElementById("card").appendChild(img);
 }
+}
+refreshPic();
 
 
 let quotes = [
@@ -165,15 +175,14 @@ let quotes = [
     
     function display(){
     let i = quotes[Math.floor(Math.random() * quotes.length)];
-    let li = document.getElementById("display");
-    li.innerText = i;
+    let li = document.getElementById("card");
+	li.innerText = `"${i}"`;
     };
     display();
 
 
 
-
-
+	
 
     // for (i=0; i<= quotes.length; i;){
     // let li = document.getElementById("display");

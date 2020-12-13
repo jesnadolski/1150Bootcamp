@@ -1,3 +1,4 @@
+
 @font-face{
     font-family: 'Daniel-Regular.otf';
     src: url("../Portfolio/assets/Daniel-Regular.otf");
@@ -50,8 +51,10 @@ h1{
     line-height: 1.0;
 }
 
+
+
 .container{
-    margin-top: 50px;
+    margin-top: 100px;
     text-align: center;
     background-color: #7c7c7c;
     color: #f3f1f2;
@@ -62,6 +65,7 @@ h1{
     border-left: 0px;
     border-right: 0px;
     border-color: #aa4465;
+    padding: 10px;
 }
 
 .container h3{
@@ -75,14 +79,164 @@ h1{
     width: 100%;
 }
 
-.col-md-4{
-    padding: 2em;
+
+.cssCreature{
+    background-color: #aa4465;
+    content: url("../Portfolio/assets/cssCreature.png");
+    width: 100%;
+    border-style: groove;
+    border-color: #f3f1f2;
 }
 
-.col-md-4 img{
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 5%;
-    border-color: transparent;
+.staticLayout{
+    content: url("../Portfolio/assets/StaticLayout.png");
+    width: 100%;
+    border-style: groove;
+    border-color: #f3f1f2;
+}
+.apiProject{
+    content: url("../Portfolio/assets/cssCreature.png");
+    width: 100%;
+    border-style: groove;
+    border-color: #f3f1f2; 
+}
+.placeholder1{
+    content: url("https://picsum.photos/id/392/367/267");
+    width: 100%;
+    border-style: groove;
+    border-color: #f3f1f2; 
+}
+.placeholder2{
+    content: url("https://picsum.photos/id/411/367/267");
+    width: 100%;
+    border-style: groove;
+    border-color: #f3f1f2; 
+}
+.placeholder3{
+    content: url("https://picsum.photos/id/43/367/267");
+    width: 100%;
+    border-style: groove;
+    border-color: #f3f1f2; 
 }
 
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .row{
+        display: block;
+        width: 100%;
+        
+    }
+    .col-xs-12{
+       width: 100%; 
+       color: black;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .row{
+        display: block;
+        width: 100%;
+    }
+    
+    .col-sm-12{
+        width: 100%;
+        color: black;
+    }
+  
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .row{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .col-md-6{
+        width: 100%;
+        color: black;
+    }
+    
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .row{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .col-lg-4{
+        width: 100%;
+        color: black;
+    }
+    
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) 
+{ .row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.col-xl-4{
+    width: 100%;
+    color: black;
+}
+}
+
+
+
+
+
+
+
+
+/* 
+.portfolio{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    
+}
+
+.portfolio li{
+    list-style: none;
+    
+}
+
+
+#cssCreature{
+    background-image: url("../Portfolio/assets/cssCreature.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline;
+    box-sizing: border-box;
+}
+
+#staticLayout{
+    background-image: url("../Portfolio/assets/StaticLayout.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline;
+    box-sizing: border-box;
+}
+
+#apiProject{
+    background-image: url("../Portfolio/assets/StaticLayout.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline;
+    box-sizing: border-box;
+}
+
+
+ */

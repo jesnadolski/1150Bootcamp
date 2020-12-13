@@ -6,26 +6,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API Project: Jessica Nadolski</title>
+
+
+
+<nav class="navbar">
+    <ul>
+        <li><a href="https://www.deepthoughtsbyjackhandey.com/">About Jack Handey</li></a>
+        <li><a href="https://www.bing.com/videos/search?q=snl+jack+handy&qpvt=snl+jack+handy&FORM=VDRE">Watch SNL Videos</li></a>
+    </ul>
+</nav>
+
 </head>
+
+
 <body>
+<div class="wrapper">
+
     <div class="top">
-<h1>Daily Inspirations</h1>
-<br>
-<p>Tom Petty said it best when he wrote, "Some days are diamonds.  Some days are rocks."</p>
-<p>Combining the lyrical genius of Tom Petty with the wisdom of Jack Handy - we present to you a source of daily inspiration.</p>
+        
+<h1>Deep Thought Generator</h1>
 <br>
 
-<button class="jackHandy"><a href="https://www.deepthoughtsbyjackhandey.com/" target="blank">About Jack Handy</button></a>
-
-<button class="jackHandy"><a href="https://www.bing.com/videos/search?q=snl+jack+handy&qpvt=snl+jack+handy&FORM=VDRE" target="blank">Watch SNL Videos</button></a>
-
+<div class="grid">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+        
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+        For those who cannot think deeply on their own, we give you the Deep Thought Generator.  Combining inspirational photos with the deep thoughts of the legendary Jack Handey.
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">    
+      </div>
+    </div>
+</div>
 <br>
+<br>
+<button onclick="display(); refreshPic(); newImage();">Generate New</button>
+
+
+
+<!-- <button class="jackHandy"><a href="https://www.deepthoughtsbyjackhandey.com/" target="blank">About Jack Handy</button></a>
+
+<button class="jackHandy"><a href="https://www.bing.com/videos/search?q=snl+jack+handy&qpvt=snl+jack+handy&FORM=VDRE" target="blank">Watch SNL Videos</button></a> -->
+
 <br>
     </div>
- 
 
-
-<div class="maincontainer"> 
+<!-- <div class="maincontainer"> 
 
 <div class="container1">   
             <div id="photo">
@@ -38,21 +65,34 @@
     <ul>
         <li id="display"></li>
     </ul>  
+ -->
 
-   
-<!-- 
-<div class="container">
-    <div class="container1">
-    <div id="photo">
+
+
+
+
+
+ <div class="section">
+
+  
+<div id="card-container">
+    
+    <div id="card" style="width: 18rem;">
+        <!-- <img src="" id="card-img-top"> -->
+        <div class="card-body">
+          <h5 class="card-title">Deep Thought</h5>
+          <ul>
+          <li></li>
+          <ul>
+          <p id="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          
+          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        </div>
+      </div>
     </div>
 </div>
-    <div id="quote">
-        <ul>
-            <li id="display"></li>
-        </ul>  
-    </div>    
-</div> -->
-
+</div>
+<br>
 
 
 
@@ -62,9 +102,37 @@
 
 </body>
 
-<audio autoplay controls class="audio">
-    <source src="../photoAPI/assets/Tom Petty & the Heartbreakers-Learning to Fly.MP3">
+<footer class="footer">
+    <br>
+<p>The Deep Thought Generator is powered by:</p>
+<button class="footerbutton"><a href="https://picsum.photos/" target="#">Lorem Picsum API</button></a>
+<button class="footerbutton"><a href="https://github.com/andrewmundy/jackhandeyapi" target="#">Jack Handey API</button></a>
+<br>
+<br>
+<h4>Audio Controls</h4>
+        <audio autoplay controls id="audio">
+            
+            <source src="../photoAPI/assets/17 Have You Ever Seen the Rain_.MP3">
+            Your browser does not support the audio play.
+          </audio>
+    </div>
+
+
+
+
+
+
+
+<!-- 
+    <h3>Audio Controls</h3>
+<audio controls class="audio">
+
+    <source src="../photoAPI/assets/04 Dust In The Wind.MP3">
     Your browser does not support the audio play.
   </audio>
+  <br>
+  <br> -->
+</footer>
+
 
 </html>
