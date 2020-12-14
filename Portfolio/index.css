@@ -68,6 +68,41 @@ h1{
     padding: 10px;
 }
 
+.skillsContainer{
+    
+    text-align: center;
+    background-color: #f3f1f2;
+    color: #f3f1f2;
+    font-family: "open sans", sans-serif;
+    border-style: solid;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: #aa4465;
+    padding: 10px;
+    height: 150px;
+}
+
+.skills{
+    text-align: center;
+    background-color: #f3f1f2;
+    color: #7c7c7c;
+    font-family: "open sans", sans-serif;
+    padding: 10px;
+    display: inline-block;
+    height: 200px;
+}
+
+.skills img{
+    border-style: solid;
+    border-width: thin;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+
 .container h3{
     color: #aa4465;
     font-family: "daniel-regular.otf";
@@ -193,7 +228,14 @@ h1{
 }
 }
 
-
+footer{
+    background-color: #7c7c7c;
+    color: #aa4465;
+    text-align: center; 
+    width: 100%;
+    position: fixed;
+    bottom:0;
+}
 
 
 
