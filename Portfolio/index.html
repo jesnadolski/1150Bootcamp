@@ -1,127 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
-    <link rel="stylesheet" href="../Portfolio/index.css">
+  
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jessica Nadolski Portfolio</title>
+  <link rel="stylesheet" href="../Portfolio/index.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jessica Nadolski Portfolio</title>
+
+ 
 
 
-
-      <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link" href="../Portfolio/about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../Portfolio/Projects.html">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../Portfolio/Contact.html">Contact</a>
-        </li>
-      </ul>
-
+<!-- NAVIGATION BAR -->
+<div class="navbar">
+  <img src="../Portfolio/assets/jln web logo_v5.jpg">
+  <div class="dropdown">
+    <button class="dropbtn">About Me
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#aboutSection">About Me</a>
+      <a href="#portfolioSection">Portfolio</a>
+      <a href="#contactSection">Contact</a>
+    </div>
+  </div>
+</div>
 </head>
 
+
+
+
+
+
 <body>
+
+  <div class="bodywrapper">
+
+  <!-- TOP SECTION -->
   
-<div id="about">Jessica Nadolski</div>
-    <div class="line"></div>
+  <div class="titlesection">
+  <div class="scroll">
+  <div id=container>
+    <br>
+    <br>
+    <h1>Jessica Nadolski</h1>
+    <div id=flip>
+      <div><div>Web Developer</div></div>
+      <div><div>Finance Professional</div></div>
+      <div><div>Problem Solver</div></div>
+      <div><div>World Traveler</div></div>
+      <div><div>Forever Learning</div></div>
+</div>
+</div>
+</div>
+</div>
 
-   
-  
-    <div class="skillsContainer">
-      <div class="skills">
 
-        <h2>Skills</h2>
-        <img src="../Portfolio/assets/html.png">
-        <img src="../Portfolio/assets/css.png">
-        <img src="../Portfolio/assets/js.png">
-        <img src="../Portfolio/assets/github.png">
 
-      </div>
+
+<!-- About Section -->
+
+<div class="aboutcontainer">
+<div class="row aboutrow">
+  <div class="columnleft">
+      <h2 id="aboutSection">ABOUT</h2>
+      <img src="../Portfolio/assets/jln_small.jpg">
+      <button id="linkedinbutton"><a href="https://www.linkedin.com/in/jessicalnadolski" target="blank">LinkedIn</a></button>
+  </div>
+  <div class="columnmiddle">
+      <h3>Web Development</h3>
+      <p>Web developer with a focus on streamlined content and design.  My career in web development began with 1150 Academy building a base knowledge of HTML, CSS, Javascript, and Bootstrap.  I have collaborated using tools such as GitHub and Firebase and have a well-rounded knowledge base for delivering quality web-based design and applications.  
+      </p>
+      <button><a href="#portfolioSection">View Portfolio</a></button>
+  </div>
+  <div class="columnright">
+      <h3>Finance</h3>
+      <p>Problem-solver with 20+ years in Finance, Financial Planning & Analysis, and Data Analysis/Management.  I have lived and worked in several countries, many industries, and in large corporations, small businesses, and nonprofit organizations delivering best-in-class financial systems, processes, and programs.
+      </p>
+      <br>
+      <button><a href="../Portfolio/assets/resume.pdf" download>Download Resume</a></button>
+      <button><a href="https://nadolskijessica.wixsite.com/website" target="#">Finance Portfolio</a></button>
+  </div>
+</div>
+</div> 
+
+
+
+
+
+<!-- SKILLS SECTION -->
+<div class="line"></div>
+  <div class="skills">
+    <h2>Skills</h2>
+    <table>
+      <tr>
+      <td><img src="../Portfolio/assets/html.png"></td>
+      <td><img src="../Portfolio/assets/css.png"></td>
+      <td><img src="../Portfolio/assets/js.png"></td>
+      <td><img src="../Portfolio/assets/github.png"></td>
+      <td><img src="../Portfolio/assets/bootstrap.jfif"></td>
+      </tr>
+      <tr>
+        <td>HTML 5</td>
+        <td>CC 3</td>
+        <td>Javascript</td>
+        <td>GitHub</td>
+        <td>Bootstrap</td>
+      </tr>
+    </table>
     </div>
-
-
-
-
-      <div class="container text-center">    
-        <br>
-        <h3>Portfolio</h3><br>
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-            <div class="cssCreature">
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-            <div class="staticLayout"></div>     
-        </div>
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-            <div class="apiProject"></div>   
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-            <div class="placeholder1"></div> 
-        </div>
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-            <div class="placeholder2"></div>      
-        </div>
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-            <div class="placeholder3"></div>    
-          </div>
-        </div>
-      </div><br>
-
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 
-<div class="portfolio">
-<h3>Portfolio</h3>
-<br>
-
-<ul>
-  <li id="cssCreature">CSS Creature</li>
-  <li id="staticLayout">Static Layout</li>
-  <li id="apiProject">API Project</li>
-</ul>
-
-
-</div> -->
-
-
   
-<!-- <div class="container text-center">    
-  <br>
-  <h3>Portfolio</h3><br>
-  <div class="row">
-    <div class="col-lg-4">
-      <img src="../Portfolio/assets/cssCreature.png" class="img-responsive" style="width:100%" alt="Image">
-      <p>CSS Creature</p>
+
+
+
+
+<!-- PORTFOLIO SECTION -->
+
+<div class="projectwrapper">
+  <div class="projectcontainer">
+    <h2 id="portfolioSection">Portfolio</h2><br>
+  <div class="row row-no-gutters">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+      <div class="csscreature"><a href="https://codepen.io/jes0606/full/YzWdKJv" target="#">CSS Styling</a></div>
   </div>
-    <div class="col-lg-4"> 
-      <img src="../Portfolio/assets/StaticLayout.png" class="img-responsive" style="width:100%" alt="Image">
-      <p>Static Layout</p>    
+  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+    <div class="staticLayout"><a href="https://github.com/jesnadolski/staticLayout/blob/main/index.html" target="#">Static Layout</a></div>
   </div>
-    <div class="col-lg-4"> 
-      <img src="../Portfolio/assets/cssCreature.png" class="img-responsive" style="width:100%" alt="Image">
-      <p>API Project</p>    
-    </div>
+  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+    <div class="apiProject"><a href="https://wd70api-deepthoughts.web.app/" target="#">API Development</a></div>
   </div>
-</div><br> -->
+</div>
+  <div class="row row-no-gutters">
+  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+    <div class="placeholder1">Coming Soon</div>
+  </div>
+  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+    <div class="placeholder2">Work In Progress</div>
+  </div>
+  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+    <div class="placeholder3">Awesome Project</div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+
+<!-- CONTACT SECTION -->
 
 
 
@@ -129,33 +157,59 @@
 
 
 
-
-
-
-
-
-
-      
-
-
+<div class="contactcontainer">
+  <h2 id="contactSection">Let's Connect</h2>
+    <form action="https://formspree.io/f/mdopwarn" method="post">
+      <input id="contactName" type="text" id="name" name="name" placeholder="First & Last Name" required>
+      <input id="contactEmail" type="email" id="email" name="email" placeholder="Email Address" required>
+      <input id="contactSubject" type="text" id="subject" name="subject" placeholder="Subject" required>
+      <input id="contactMessage" type="text" id="messag" name="message" placeholder="Message" required>
+      <button class="btn btn-primary" type="submit" name="submit" onclick=submitForm();>Submit</button>
+    </form>
+    <div class="formbutton">
     
-</body>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- FOOTER SECTION -->
+
 
 <footer>
-      
-  <div class="footerContainer text-center">    
-  <br>
-    <h3>Let's Connect</h3>
-    <br>
-     
-    <div class="linkedin">
+  <div class="linkedin">
+    <a href="#aboutSection" target="blank"><img src="../Portfolio/assets/jln_small.jpg" height="30px" width="30px"></a>
     <a href="https://www.linkedin.com/in/jessicalnadolski" target="blank"><img src="../Portfolio/assets/linkedinblack.png" height="30px" width="30px"></a>
+    <a href="#portfolioSection" target="blank"><img src="../Portfolio/assets/cssCreature2.png" height="30px" width="30px"></a>
+  </div> 
+  <div class="logo">
+    <img src="../Portfolio/assets/jln web logo_v5.jpg">
   </div>
-    
-  </div>    
-
 </footer>
 
 
+
+</div>
+</body>
+
 </html>
+
+
+
+
+
+
+
+<!-- <footer>
+  <div class="linkedin">
+    <a href="https://www.linkedin.com/in/jessicalnadolski" target="blank"><img src="../Portfolio/assets/linkedinblack.png" height="30px" width="30px"></a>
+  </div> 
+  <div class="logo">
+    <img src="../Portfolio/assets/jln web logo_v5.jpg">
+  </div>
+</footer> -->
+
 
