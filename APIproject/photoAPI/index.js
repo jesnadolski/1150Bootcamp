@@ -9,11 +9,7 @@ fetch(url)
 })
 .then(randomPic => newImage(randomPic.url));
 
-// function newImage(){
-//     let img=new Image();
-//     img.src = url;
-//     document.getElementById("photo").appendChild(img);
-// }
+
 
 function newImage(){
     let img=new Image();
@@ -183,19 +179,3 @@ let quotes = [
 
 
 	
-
-    // for (i=0; i<= quotes.length; i;){
-    // let li = document.getElementById("display");
-    // console.log(quotes[i]);
-    // li.innerHTML = quotes[i];
-    // }
-    
-
-
-    // public static int getRandom(int[] array) {
-    //     int rnd = (int)(Math.random()*array.length);
-    //     return array[rnd];
-    // }
-
-
-    // document.getElementById("loop").innerHTML = names[i]

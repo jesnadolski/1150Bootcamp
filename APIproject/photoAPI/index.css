@@ -1,3 +1,4 @@
+/* TEST */
 html{
     background-color: #fffbfe;
     margin: 0px;
@@ -148,40 +149,6 @@ body{
 
 
 
-/* 
-.maincontainer{
-    border-style: solid;
-    border-width: 10px;
-    border-color: rgb(15, 15, 20);
-   
-    padding: 200px 20px 20px 20px;
-    background-color: #e8e5da;
-    height: 400px;
-    width: 400px;
-    margin: auto;
-}
-
-.container1{
-    background-color: #e8e5da;
-    margin: auto;
-    border-style: solid;
-    border-radius: 2%; 
-    height: 400px;
-    width: 400px;
-    z-index: 1;
-    max-height: inherit;
-}
-
-.container2{
-    background-color: white;
-    margin: auto;
-    border-style: solid;
-    border-radius: 2%;
-    height: 300px;
-    width: 300px;
-    z-index: 2;
-    max-height: inherit; 
-} */
 
 #photo{
     padding: 10px;
@@ -239,8 +206,6 @@ body{
     display: flex;
     justify-content: center;
     background-color: #fffbfe;
-    /* border-style: groove;
-    border-color: #e8e5da; */
     text-align: center;
     border-width: 1px 0px 1px 0px;
     margin: auto;
