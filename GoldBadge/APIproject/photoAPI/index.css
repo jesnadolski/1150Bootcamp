@@ -1,0 +1,272 @@
+/* TEST */
+html{
+    background-color: #fffbfe;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    text-decoration: none;
+    text-align: right;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #ff6b6b;
+}
+
+.navbar li{
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+.wrapper{
+    margin: auto;
+}
+
+.top{
+    text-align: center;
+    color: #565254;
+    margin-top: 50px;
+}
+
+.top h1::before{
+    content: url("./assets/images.png");
+    padding: 10px;
+  
+}
+
+.top p{
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.0;
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .row{
+        display: block;
+        width: 100%;
+        
+    }
+    .col-xs-12{
+       width: 100%; 
+       color: black;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .row{
+        display: block;
+        width: 100%;
+    }
+    
+    .col-sm-12{
+        width: 100%;
+        color: black;
+    }
+  
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .row{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .col-md-12{
+        width: 100%;
+        color: black;
+    }
+    
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .row{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .col-lg-4{
+        width: 100%;
+        color: black;
+    }
+    
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) 
+{ .row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.col-xl-4{
+    width: 100%;
+    color: black;
+}
+}
+
+
+.top button{
+    color: #fffbfe;
+    font-size: 10px;
+    font-weight: bold;
+    border-style: groove;
+    background-color: #ff6b6b;
+    border-color: #565254;
+    outline-style: none;
+    border-radius: 20px;
+    width: 80px;
+    height: 30px;
+    display: inline;
+    text-align: center;
+}
+
+.top button:hover{
+    background-color: #565254;
+}
+
+
+
+
+#photo{
+    padding: 10px;
+    margin: auto;
+    z-index: 3;
+    max-height: inherit;
+    
+}
+
+#photo img{
+    border-style: solid;
+    height: 100%;
+    width: 100%;
+    border-radius: 2%;
+    opacity: 80%;
+    max-height: inherit;
+}
+
+#quote{
+    color: #fffbfe;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    z-index: 4;
+    overflow: visible;
+    height: 400px;
+    width: 400px;
+    margin-top: -600px;
+    margin-left: 500px;
+    position: relative;
+    text-align: justify;
+    
+}
+
+#display{
+    list-style: none;
+}
+
+
+
+.jackHandy{
+    border-style: solid;
+    border-radius: 50px;
+    background-color: #fffbfe;
+    color: #ff6b6b;
+    width: 100px;
+    height: 100px;
+}
+
+.jackHandy a{
+    text-decoration: none;
+    color: #ff6b6b;
+}
+
+#card-container{
+    display: flex;
+    justify-content: center;
+    background-color: #fffbfe;
+    text-align: center;
+    border-width: 1px 0px 1px 0px;
+    margin: auto;
+
+}
+#card{
+    background-color: #fffbfe;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    border-style: groove;
+    border-width: 5px;
+    border-color: darkgrey;
+    padding: 10px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#card li{
+    color: #fffbfe;
+    list-style: none;
+}
+
+
+#card img{
+   vertical-align: bottom;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #565254; 
+    height: auto;
+    width: 100%;
+}
+
+
+
+.footer{
+    text-align: center;
+    color: #fffbfe;
+    background-color:  #565254;
+    font-size: 12px;
+    
+}
+
+.footerbutton{
+    background-color: #d0cfcf;
+    color: #565656;
+    border-style: solid;
+    border-color: #565254;
+    border-radius: 10px;
+    height: 30px;
+    width: 140px;
+}
+
+.footerbutton a{
+    text-decoration: none;
+    color: #ff6b6b;
+}
+
+#audio{
+    height: 30px;
+}

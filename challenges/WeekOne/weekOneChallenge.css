@@ -1,8 +1,0 @@
-h1{color: lightgreen; text-align: center}
-h3{color:blue}
-p{color:red}
-.border-style{padding: 10px; border-style: solid; border-color:black; border-width: thick; border-radius: 10px; background-color:gray; text-align:center}
-
-#border-style1{display: inline-block; width: 30%; border-style: solid; border-color:black; border-width: thick; border-radius: 20px; background-color:lightgray; text-align:center}
-#border-style2{display: inline-block; width: 30%; border-style: solid; border-color:black; border-width: thick; border-radius: 20px; background-color:lightgray; text-align:center}
-#border-style3{display: inline-block; width: 30%; border-style: solid; border-color:black; border-width: thick; border-radius: 20px; background-color:lightgray; text-align: center}
